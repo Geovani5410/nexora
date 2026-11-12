@@ -8,20 +8,23 @@
   <meta name="description" content="NEXORA es una consultoría de desarrollo organizacional y psicología del trabajo en Oaxaca.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<aside class="side">
-  <a class="brand" href="index.html"><img src="img/logo.png" alt="Logotipo de NEXORA"><b>NEXORA</b></a>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<header class="side">
+  <a class="brand" href="index.html"><img src="img/logo-sm.png" alt="Logotipo de NEXORA" width="240" height="208" decoding="async"><b>NEXORA</b></a>
   <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menú</button>
-  <nav id="menu" class="menu"><a href="index.html">Inicio</a><a href="nosotros.html">Nosotros</a><a href="talento.html">Talento</a><a href="conocimiento.html" class="on">Conocimiento</a><a href="contacto.html">Contacto</a></nav>
+  <nav id="menu" class="menu" aria-label="Menú principal"><a href="index.html">Inicio</a><a href="nosotros.html">Nosotros</a><a href="talento.html">Talento</a><a href="conocimiento.html" class="on" aria-current="page">Conocimiento</a><a href="contacto.html">Contacto</a></nav>
   <p class="side-note">Conectamos personas, impulsamos el cambio</p>
-</aside>
-<main>
+</header>
+<div class="page">
+<main id="contenido" tabindex="-1">
 <header class="page-head"><h1>Conocimiento</h1><p>Información, investigaciones y recursos sobre bienestar organizacional.</p></header>
 <nav class="tabs" aria-label="Secciones de esta página"><a href="#expertos">Entrevista con expertos</a><a href="#capsulas">Cápsulas informativas</a><a href="#investigaciones">Investigaciones</a><a href="#datos-curiosos">Datos curiosos</a><a href="#mitos">Mitos y realidades</a></nav>
-<section class="section"><div class="soon-grid"><article id="expertos" class="soon"><h3>Entrevista con expertos</h3><div class="video-ph" role="img" aria-label="Espacio reservado para video">Video pendiente</div><p>Espacio para la entrevista con expertos del tema.</p><span class="badge">Próximamente</span></article><article id="capsulas" class="soon"><h3>Cápsulas informativas</h3><p>Aquí irán las cápsulas informativas sobre el tema.</p><span class="badge">Próximamente</span></article><article id="investigaciones" class="soon"><h3>Investigaciones</h3><p>Aquí se presentarán las investigaciones del proyecto.</p><span class="badge">Próximamente</span></article><article id="datos-curiosos" class="soon"><h3>Datos curiosos</h3><p>Aquí irán los datos curiosos del tema.</p><span class="badge">Próximamente</span></article><article id="mitos" class="soon"><h3>Mitos y realidades</h3><p>Aquí se aclararán mitos y realidades del tema.</p><span class="badge">Próximamente</span></article></div></section>
+<section class="section"><div class="soon-grid"><article id="expertos" class="soon"><h2>Entrevista con expertos</h2><div class="video-ph" role="img" aria-label="Espacio reservado para video">Video pendiente</div><p>Espacio para la entrevista con expertos del tema.</p><span class="badge">Próximamente</span></article><article id="capsulas" class="soon"><h2>Cápsulas informativas</h2><p>Aquí irán las cápsulas informativas sobre el tema.</p><span class="badge">Próximamente</span></article><article id="investigaciones" class="soon"><h2>Investigaciones</h2><p>Aquí se presentarán las investigaciones del proyecto.</p><span class="badge">Próximamente</span></article><article id="datos-curiosos" class="soon"><h2>Datos curiosos</h2><p>Aquí irán los datos curiosos del tema.</p><span class="badge">Próximamente</span></article><article id="mitos" class="soon"><h2>Mitos y realidades</h2><p>Aquí se aclararán mitos y realidades del tema.</p><span class="badge">Próximamente</span></article></div></section>
+</main>
 <footer class="foot">
   <div class="foot-grid">
     <div><h2>Contacto</h2><p>Bienestar organizacional, grandes resultados.</p></div>
@@ -31,9 +34,9 @@
       <li><a href="mailto:somosnexora@gmail.com">somosnexora@gmail.com</a></li>
     </ul>
   </div>
-  <p class="legal">© <span id="year">2026</span> NEXORA. UGMEX Campus Oaxaca. Psicología Organizacional II.</p>
+  <p class="legal">© <span id="year">2026</span> NEXORA. Práctica educativa, UGMEX Campus Oaxaca. Psicología Organizacional II.</p>
 </footer>
-</main>
+</div>
 <script src="js/script.js"></script>
 </body>
 </html>

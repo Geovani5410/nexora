@@ -8,25 +8,29 @@
   <meta name="description" content="NEXORA es una consultoría de desarrollo organizacional y psicología del trabajo en Oaxaca.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<aside class="side">
-  <a class="brand" href="index.html"><img src="img/logo.png" alt="Logotipo de NEXORA"><b>NEXORA</b></a>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<header class="side">
+  <a class="brand" href="index.html"><img src="img/logo-sm.png" alt="Logotipo de NEXORA" width="240" height="208" decoding="async"><b>NEXORA</b></a>
   <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menú</button>
-  <nav id="menu" class="menu"><a href="index.html">Inicio</a><a href="nosotros.html">Nosotros</a><a href="talento.html">Talento</a><a href="conocimiento.html">Conocimiento</a><a href="contacto.html" class="on">Contacto</a></nav>
+  <nav id="menu" class="menu" aria-label="Menú principal"><a href="index.html">Inicio</a><a href="nosotros.html">Nosotros</a><a href="talento.html">Talento</a><a href="conocimiento.html">Conocimiento</a><a href="contacto.html" class="on" aria-current="page">Contacto</a></nav>
   <p class="side-note">Conectamos personas, impulsamos el cambio</p>
-</aside>
-<main>
+</header>
+<div class="page">
+<main id="contenido" tabindex="-1">
 <header class="page-head"><h1>Contacto y redes</h1><p>Escríbenos o síguenos en redes sociales.</p></header>
-<nav class="tabs" aria-label="Secciones de esta página"><a href="#instagram">Instagram</a><a href="#facebook">Facebook</a><a href="#tarjeta">Tarjeta digital</a></nav>
+<nav class="tabs" aria-label="Secciones de esta página"><a href="#instagram">Instagram</a><a href="#facebook">Facebook</a><a href="#tarjeta">Tarjeta digital</a><a href="#opinion">Tu opinión</a></nav>
 <section id="instagram" class="section"><h2>Instagram</h2><p>Síguenos en <a href="https://www.instagram.com/nexora_consultoria" target="_blank" rel="noopener"><b>@nexora_consultoría</b></a>.</p></section>
 <section id="facebook" class="section"><h2>Facebook</h2><article class="soon" style="max-width:420px"><p>Enlace a la página de Facebook de NEXORA.</p><span class="badge">Próximamente</span></article></section>
 <section id="tarjeta" class="section"><h2>Tarjeta de presentación digital</h2>
-  <div class="dcard"><img src="img/logo.png" alt="Logotipo de NEXORA"><div><b>NEXORA</b><p>Bienestar organizacional, grandes resultados</p>
+  <div class="dcard"><img src="img/logo-sm.png" alt="Logotipo de NEXORA" width="240" height="208" loading="lazy" decoding="async"><div><b>NEXORA</b><p>Bienestar organizacional, grandes resultados</p>
   <ul><li><a href="tel:+529516093126">951 609 31 26</a></li><li><a href="mailto:somosnexora@gmail.com">somosnexora@gmail.com</a></li><li>Instagram: nexora_consultoría</li></ul></div></div>
   <p class="hint" style="margin-top:1rem">Diseño final pendiente.</p></section>
+<section id="opinion" class="section"><h2>Tu opinión</h2><p class="prose">Tu experiencia nos ayuda a mejorar esta página. Cuéntanos qué te gustó y qué podemos mejorar.</p><p style="margin-top:1rem"><a class="btn" href="mailto:somosnexora@gmail.com?subject=Opini%C3%B3n%20sobre%20la%20p%C3%A1gina%20de%20NEXORA">Enviar comentarios</a></p></section>
+</main>
 <footer class="foot">
   <div class="foot-grid">
     <div><h2>Contacto</h2><p>Bienestar organizacional, grandes resultados.</p></div>
@@ -36,9 +40,9 @@
       <li><a href="mailto:somosnexora@gmail.com">somosnexora@gmail.com</a></li>
     </ul>
   </div>
-  <p class="legal">© <span id="year">2026</span> NEXORA.  UGMEX Campus Oaxaca. Psicología Organizacional II.</p>
+  <p class="legal">© <span id="year">2026</span> NEXORA. Práctica educativa, UGMEX Campus Oaxaca. Psicología Organizacional II.</p>
 </footer>
-</main>
+</div>
 <script src="js/script.js"></script>
 </body>
 </html>

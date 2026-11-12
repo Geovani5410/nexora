@@ -8,27 +8,29 @@
   <meta name="description" content="NEXORA es una consultoría de desarrollo organizacional y psicología del trabajo en Oaxaca.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<aside class="side">
-  <a class="brand" href="index.html"><img src="img/logo.png" alt="Logotipo de NEXORA"><b>NEXORA</b></a>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<header class="side">
+  <a class="brand" href="index.html"><img src="img/logo-sm.png" alt="Logotipo de NEXORA" width="240" height="208" decoding="async"><b>NEXORA</b></a>
   <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menú</button>
-  <nav id="menu" class="menu"><a href="index.html">Inicio</a><a href="nosotros.html" class="on">Nosotros</a><a href="talento.html">Talento</a><a href="conocimiento.html">Conocimiento</a><a href="contacto.html">Contacto</a></nav>
+  <nav id="menu" class="menu" aria-label="Menú principal"><a href="index.html">Inicio</a><a href="nosotros.html" class="on" aria-current="page">Nosotros</a><a href="talento.html">Talento</a><a href="conocimiento.html">Conocimiento</a><a href="contacto.html">Contacto</a></nav>
   <p class="side-note">Conectamos personas, impulsamos el cambio</p>
-</aside>
-<main>
+</header>
+<div class="page">
+<main id="contenido" tabindex="-1">
 <header class="page-head"><h1>Nosotros</h1><p>Identidad de NEXORA: quiénes somos, qué buscamos y en qué creemos.</p></header>
 <nav class="tabs" aria-label="Secciones de esta página"><a href="#logo">Logo y slogan</a><a href="#quienes-somos">Quiénes somos</a><a href="#objetivos">Objetivo</a><a href="#historia">Historia</a><a href="#mision-vision">Misión y visión</a><a href="#cultura">Cultura</a><a href="#filosofia">Filosofía</a><a href="#valores">Valores</a><a href="#organigrama">Organigrama</a></nav>
 <section id="logo" class="section">
   <h2>Slogan y logotipo</h2>
   <div class="logo-top">
-    <div class="logo-card"><img src="img/logo.png" alt="Logotipo de NEXORA: cerebro y hoja"></div>
+    <div class="logo-card"><img src="img/logo.png" alt="Logotipo de NEXORA: cerebro y hoja" width="689" height="597" loading="lazy" decoding="async"></div>
     <div>
       <h3>Colorimetría y psicología del color</h3>
       <p>La colorimetría del logotipo de NEXORA, fundamentada en la psicología del color, proyecta estratégicamente la propuesta de valor del proyecto de diagnóstico e intervención psicolaboral.</p>
-      <p class="hint" style="margin-top:1rem"></p>
+      <p class="hint" style="margin-top:1rem">Significado del símbolo (cerebro y hoja): pendiente.</p>
     </div>
   </div>
   <div class="colors"><article class="color"><div class="sw" style="background:#2E1A5C"></div><div class="cb"><h3>Morado <small>#2E1A5C</small></h3><p class="kw">Sabiduría · confianza · equilibrio emocional</p><p>Representa la sabiduría, la confianza y el equilibrio emocional. Desde la psicología del color, transmite profesionalismo, seguridad y bienestar, cualidades importantes para una consultora especializada en desarrollo organizacional y psicología del trabajo.</p></div></article><article class="color"><div class="sw" style="background:#B5B2CD"></div><div class="cb"><h3>Lila <small>#B5B2CD</small></h3><p class="kw">Calma · creatividad · empatía</p><p>Simboliza la calma, la creatividad y la empatía. Este color contribuye a proyectar cercanía y confianza, elementos fundamentales para establecer relaciones profesionales positivas y generar ambientes laborales saludables.</p></div></article><article class="color"><div class="sw" style="background:#1E3A6B"></div><div class="cb"><h3>Azul <small>#1E3A6B</small></h3><p class="kw">Estabilidad · serenidad · claridad</p><p>Transmite estabilidad, serenidad y claridad. Refuerza la imagen de profesionalismo, compromiso y responsabilidad de NEXORA, proyectando confianza hacia las instituciones y sus colaboradores.</p></div></article><article class="color"><div class="sw" style="background:#82BFAA"></div><div class="cb"><h3>Verde <small>#82BFAA</small></h3><p class="kw">Crecimiento · salud · equilibrio</p><p>Se asocia con el crecimiento, la salud y el equilibrio. Representa la esperanza, la renovación y el desarrollo personal y organizacional, valores relacionados con el bienestar de las personas y la mejora continua.</p></div></article></div>
@@ -110,7 +112,7 @@
     </div>
   </section><section id="organigrama" class="section">
     <h2>Organigrama</h2>
-    <p class="hint">Equipo fundador de NEXORA.</p>
+    <p class="hint">Equipo fundador de NEXORA. Los cargos se agregarán cuando se aprueben.</p>
     <div class="org">
       <div class="root">NEXORA</div>
       <ul class="branches">
@@ -149,6 +151,7 @@
       </ul>
     </div>
   </section>
+</main>
 <footer class="foot">
   <div class="foot-grid">
     <div><h2>Contacto</h2><p>Bienestar organizacional, grandes resultados.</p></div>
@@ -160,7 +163,7 @@
   </div>
   <p class="legal">© <span id="year">2026</span> NEXORA. Práctica educativa, UGMEX Campus Oaxaca. Psicología Organizacional II.</p>
 </footer>
-</main>
+</div>
 <script src="js/script.js"></script>
 </body>
 </html>
