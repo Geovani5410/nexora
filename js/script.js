@@ -43,4 +43,14 @@ const rev = new IntersectionObserver(es => es.forEach(e => {
 }), { threshold: .15 });
 document.querySelectorAll('.reveal').forEach(el => rev.observe(el));
 
+// Videos: solo uno a la vez; si falta el archivo se muestra un aviso
+const videos = [...document.querySelectorAll('video')];
+videos.forEach(v => {
+  v.addEventListener('play', () => videos.forEach(o => { if (o !== v) o.pause(); }));
+  const src = v.querySelector('source');
+  if (src) src.addEventListener('error', () => {
+    v.outerHTML = '<div class="video-ph" role="img" aria-label="Video no disponible">Video no disponible por ahora</div>';
+  });
+});
+
 document.getElementById('year').textContent = new Date().getFullYear();

@@ -20,12 +20,18 @@
 - **Desbordes:** sin scroll horizontal de 320 a 1920 px de ancho.
 - **Fluidez del scroll:** se eliminaron el desenfoque de fondo de las pestañas, la animación de bordes del inicio y los desplazamientos automáticos al cambiar de pestaña; las animaciones decorativas se desactivan en pantallas táctiles.
 
+## Decisiones de diseño y sus límites
+
+- **Texto justificado:** es un requisito del proyecto y se aplica con separación silábica automática para evitar huecos grandes. Las pautas WCAG de nivel AAA (criterio 1.4.8) recomiendan no justificar el texto, porque puede dificultar la lectura a algunas personas; el sitio apunta al nivel AA, por lo que este punto queda como decisión consciente.
+- **Videos:** la revisión automática da 0 violaciones, pero los videos reales necesitan subtítulos (criterio 1.2.2, nivel A). Mientras no existan, ese punto está **pendiente** y la revisión lo marcará cuando se agreguen los archivos.
+
 ## Qué falta (no se puede automatizar)
 
 - Probar en celulares reales (Android y iPhone) y en Firefox y Safari.
 - Prueba de usabilidad con al menos 5 personas ajenas al equipo.
 - Revisar con lector de pantalla.
-- Subtítulos y transcripción cuando se suban los videos y audios.
+- Subtítulos (archivo .vtt) y transcripción de los videos de bienvenida y despedida.
+- Confirmar los nombres del organigrama, que se transcribieron tal como aparecen en la imagen.
 - Descripciones definitivas de las imágenes y fotos del organigrama.
 
 ## Antes de cada actualización
