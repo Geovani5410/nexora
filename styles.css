@@ -265,3 +265,4 @@ h1,h2,h3,h4,.hubc li,.oc{-webkit-hyphens:manual;hyphens:manual}
 .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media (hover:hover){.btn.alt:hover{background:var(--tint);color:var(--ink)}}
 .btns .btn{padding:.6rem 1.1rem;font-size:.9rem;white-space:nowrap}
+.btns .btn{padding:.55rem .9rem;font-size:.85rem}
