@@ -1,0 +1,4 @@
+Coloca aquí los videos del sitio:
+  video_bienvenida.mp4
+  video_despedidda.mp4
+Formato recomendado: MP4 (H.264 + AAC). GitHub no acepta archivos de más de 100 MB.

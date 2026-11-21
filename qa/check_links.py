@@ -26,5 +26,6 @@ for name, p in pages.items():
         if u.fragment and target.endswith('.html') and u.fragment not in pages[target].ids:
             print(f'[ERROR] {name}: el ancla #{u.fragment} no existe en {target}'); errores += 1
     for src in p.imgs_sin_alt: print(f'[ERROR] {name}: imagen sin texto alternativo {src}'); errores += 1
+if os.path.exists(os.path.join(ROOT,'styles.css')): print('[AVISO] hay un styles.css fuera de css/: el sitio carga css/styles.css, borra el sobrante')
 print(f'{len(pages)} páginas revisadas. Errores: {errores}')
 sys.exit(1 if errores else 0)
